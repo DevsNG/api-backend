@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-import django_heroku
+# import django_heroku
 
 
 
@@ -149,4 +149,4 @@ MEDIA_URL = '/media/'
 if not DEBUG:
     DEFAULT_FILE_STORAGE = 'backend.storage_backends.MediaStorage'
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
