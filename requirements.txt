@@ -54,3 +54,4 @@ virtualenvwrapper==4.8.2
 web.py==0.40.dev1
 Werkzeug==0.14.1
 whitenoise==4.1.1
+django-crispy-forms
