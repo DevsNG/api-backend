@@ -155,4 +155,4 @@ MEDIA_URL = '/media/'
 if not DEBUG:
     DEFAULT_FILE_STORAGE = 'backend.storage_backends.MediaStorage'
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
