@@ -6,7 +6,7 @@ class FederalMinistry(models.Model):
     full_name = models.CharField(max_length=400)
     short_name = models.CharField(max_length=20)
     description = models.TextField()
-    established = models.PositiveIntegerField()
+    established = models.PositiveSmallIntegerField(null=True)
     # logo = models.ImageField(upload_to='fed_min_logos', blank=True, null=True, default='N/A')
     current_minister = models.CharField(max_length=500)
     permanent_secretary = models.CharField(max_length=500, default='N\A')
