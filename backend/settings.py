@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'rest_framework',  # for django rest api
     'corsheaders',  # for rest api
     'storages',  # for django_storages
-    # 'django_filters',  # for filtering api
+    'django_filters',  # for filtering api
 
     # api apps
     'universities',
