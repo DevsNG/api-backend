@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b8ba2b1-8aa2-4448-95f5-fcf8ace2e9c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/airports/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airports/migrations/0002_auto_20190310_0105.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage_backends.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/federal_ministries/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/federal_ministries/migrations/0002_auto_20190310_0129.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/federal_ministries/migrations/0003_auto_20190310_0131.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/federal_ministries/migrations/0004_auto_20190310_0132.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/migrations/0002_auto_20190310_0132.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/migrations/0003_auto_20190310_0142.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/migrations/0004_auto_20190310_0147.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/migrations/0005_auto_20190310_0151.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0002_auto_20190307_0303.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0003_auto_20190307_0304.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0004_auto_20190308_0236.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0005_auto_20190308_0245.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0006_auto_20190309_1439.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/universities/migrations/0007_university_website.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/university_logos/IMG_20181228_145339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/university_logos/IMG_20181228_150335.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/university_logos/IMG_20181228_150750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/university_logos/icons8-instagram-68.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +33,7 @@
         <counts>
           <entry key="Procfile" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="55" />
+          <entry key="py" value="56" />
           <entry key="py___jb_tmp___" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -61,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="55" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -86,11 +66,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/federal_ministries/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/federal_ministries/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -196,7 +185,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35267857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,13 +268,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/federal_ministries/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federal_ministries/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/airports/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,6 +417,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federal_ministries/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
