@@ -4,6 +4,7 @@ The project is built with Python's [django](https://www.djangoproject.com) and [
 ##  Getting Started
 To contribute to the project, you can add new categories, update existing categories, make changes to improve security, change views methods, or. just something as little as converting a `PositiveIntegerField` to a `PositiveSmallIntegerField` in the models.
 Just as long as there's a good enough reason for that, as *should* be stated in your pull request.
+*In whatever contribution you make, please update the `contributors.MD` file to include your NAME, SLACK USERNAME, GITHUB AND TWITTER LINKS, following the order seen in the file*
 
 To start, fork the project and clone the copy into your local machine. Set up a virtual environment by running `virtualenv env` and activate the virtual environment by running `env\Scripts\activate`.
 After activating the virtual env, install required modules by running `pip install -r requirements.txt`, assuming you have [pip installed](https://www.makeuseof.com/tag/install-pip-for-python/). 
@@ -36,7 +37,8 @@ It should take 3-72 hours for the data to be reviewed and added by an admin, dep
 
 This could be from added security, or code refactoring, or installation of a package to ease a process, or even taking your yime out to add comments to code lines. Whatever the case may be, please add it with the reason in your pull request.
 
+## Community
 
-
-
+You can find the Developers Nigeria (Devs Ng) slack group [here](https://devs.ng). Please be sure to send a join request.
+We will take on community projects from time to time.
 
