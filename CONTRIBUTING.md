@@ -15,5 +15,15 @@ This project was designed using Django's best practices, including creating an `
 The `models.py` file is used to architect the fields present in the category you're adding. 
 The `serializers.py` file is used for - you guessed it right - [serializing](https://www.django-rest-framework.org/api-guide/serializers/#serializers) our models.
 
-To create a new category, run `python manage.py createapp <category_name>`. Add the new app to Django in the `settings.INSTALLED_APPS`. Add it into the admin panel by making appropriate changes in the `category_name.admin.py` file.
-Open the `models.py` file and design your model. Please open  models file of another category app to follow the same procedure, e.g, if a category has a time field that represents just the *year*, without a day and month, please use a `PositiveSmallIntegerField()` instead of a `DateField()` or `DateTimeField()`
+To create a new category, run `python manage.py createapp <category_name>`. Add the new app to Django in the `settings.INSTALLED_APPS`. Add it into the admin panel by making appropriate changes in the `category_name/admin.py` file.
+Also create a `urls.py` file for the app url patterns, and `include` it in the root urls, following the procedures used in other included apps' url patterns.
+Open the `models.py` file and design your model. Please open  models file of an already established category app to see and follow the same procedure, e.g, if a category has a time field that represents just the *year*, without a day and month, please use a `PositiveSmallIntegerField()` instead of a `DateField()` or `DateTimeField()`; and also adding `null=True, blank=True, default='N\A'` as parameters to the model fields for optional fields, or fields which might have values in some instances of the category, and not in some.
+
+After creating your models, create a `serializers.py` field to create your serializers - using preferably a `serializer.ModelSerializer` class extension. Then open up the `views.py` file and create a `generics` view, again, using an alreadt established app's views file as reference. Our API data is set to be handle `filtering`, `ordering` and `searching`, so please add that to the views.
+Test your changes via the localhost, and try adding a few utems to your new category, assuming you kbow how to run local server and create super users in Django. If everything works well, use [this guide](https://guides.github.com/activities/forking/) to make a pull request.
+Please ensure to add a very descriptive 'essay' about your changes and/or additions - seriously, please.
+
+## Modifying/Updating Categories
+
+Maybe for some reason you think an alread existing category or categories need(s) some changes to it's field, or should not be there at all, please also fork, clone, set up virtual environment, and `pip install -r requirements.txt` as above. Open the `models.py` file of the category's app directory and make your changes to it. If the changes should be in the views or serializers, please do that, while not forgetting to include changes and reason for them in your pull request.
+
