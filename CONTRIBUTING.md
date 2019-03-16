@@ -27,3 +27,16 @@ Please ensure to add a very descriptive 'essay' about your changes and/or additi
 
 Maybe for some reason you think an alread existing category or categories need(s) some changes to it's field, or should not be there at all, please also fork, clone, set up virtual environment, and `pip install -r requirements.txt` as above. Open the `models.py` file of the category's app directory and make your changes to it. If the changes should be in the views or serializers, please do that, while not forgetting to include changes and reason for them in your pull request.
 
+## Inputting Data
+
+Setting up views and serializers is not the major problem, data inputting is! So we'll greatly appreciate contributions in this category. To help fill/input data in any category, please fill out [this form](#). Before then, if the category has an ImageField(), please have the copy of the image uploaded to a cloud sharing site (preferably google drive or dropbox) and provide the sharing link in the form. Please make sure the uploaded image's shareable feature is turned on.
+It should take 3-72 hours for the data to be reviewed and added by an admin, depending on amount of data to be processed.
+
+## General Code Changes
+
+This could be from added security, or code refactoring, or installation of a package to ease a process, or even taking your yime out to add comments to code lines. Whatever the case may be, please add it with the reason in your pull request.
+
+
+
+
+
