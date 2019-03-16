@@ -1,6 +1,14 @@
 If you're here, thanks for deciding to contribute to this project - we need you!
 The project is built with Python's [django](https://www.djangoproject.com) and [django rest framework](https://www.django-rest-framework.org), so be sure you have [Python already installed](https://www.python.org/downloads/) into your machine.
 
+## Table of Contents:
+- [Getting Started](#getting-started)
+- [Adding new categories](#adding-categories)
+- [Modifying Categories](#modifyingupdating-categories)
+- [Inputting Data](#inputting-data)
+- [General Code Changes](#general-code-changes)
+- [Community](#community)
+
 ##  Getting Started
 To contribute to the project, you can add new categories, update existing categories, make changes to improve security, change views methods, or. just something as little as converting a `PositiveIntegerField` to a `PositiveSmallIntegerField` in the models.
 Just as long as there's a good enough reason for that, as *should* be stated in your pull request.
