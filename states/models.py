@@ -21,7 +21,7 @@ class State(models.Model):
     slogan = models.CharField(max_length=400)
     no_of_local_governments = models.PositiveIntegerField(default='N/A')
     denonyms = models.CharField(max_length=400, null=True, blank=True, default='N/A')
-    landmarks = models.CharField(max_length=1000)
+    # landmarks = models.CharField(max_length=1000)
     website = models.URLField(null=True, blank=True)
 
     def __str__(self):
