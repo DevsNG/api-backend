@@ -8,3 +8,8 @@ Please feel free to edit this file to add your details when you make changes to 
     - slack display name: Cole
     - [github](https://github.com/kingingcole)
     - [twitter](https://twitter.com/cole_ruche)
+
+3. Ayooluwa Oyewo
+    - slack display name: oyewoas
+    - [github](https://github.com/oyewoas)
+    - [twitter](https://twitter.com/oyewoas)

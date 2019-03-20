@@ -55,3 +55,5 @@ web.py==0.40.dev1
 Werkzeug==0.14.1
 whitenoise==4.1.1
 django-crispy-forms
+django-choices==1.6.2
+
