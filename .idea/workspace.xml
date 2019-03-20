@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b8ba2b1-8aa2-4448-95f5-fcf8ace2e9c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="4b8ba2b1-8aa2-4448-95f5-fcf8ace2e9c4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +48,13 @@
           <entry key="Procfile" value="7" />
           <entry key="activate" value="20" />
           <entry key="gitignore" value="19" />
-          <entry key="py" value="3802" />
+          <entry key="py" value="3817" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="3802" />
+          <entry key="Python" value="3817" />
         </counts>
       </usages-collector>
     </session>
